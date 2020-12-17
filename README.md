@@ -44,7 +44,7 @@ Swirl aims to change the status quo by providing an open-source and free progres
 - [Angular](https://angular.io/)
 - [Firebase](https://firebase.google.com/)
 
-### Funding & Support
+### Funding and Support
 
 Funding for this project has partially been provided by the Long Island Library Resources Council.
 
