@@ -1,0 +1,7 @@
+{
+  "name": "Swirl",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
