@@ -1,0 +1,1 @@
+Contains components for the Swirl Shared module.

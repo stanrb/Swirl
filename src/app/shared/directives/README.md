@@ -1,0 +1,1 @@
+Contains directives for the Swirl Shared module.

@@ -1,0 +1,15 @@
+<div class="flip-container" (click)="flip()" [class.flipped]="flipped">
+
+  <div class="flipper">
+
+      <div class="front front-text">
+          <ng-content select=".flashcard-front"></ng-content>
+      </div>
+
+      <div class="back back-text">
+          <ng-content select=".flashcard-back"></ng-content>
+      </div>
+
+  </div>
+
+</div>

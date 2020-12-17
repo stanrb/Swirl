@@ -1,0 +1,1 @@
+Contains pipes for the Swirl Shared module.
