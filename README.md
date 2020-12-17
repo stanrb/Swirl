@@ -3,9 +3,7 @@
   <h3 align="center">Swirl - Something With Information Research Literacy</h3>
 
   <p align="center">
-    To date, libraries rely on outdated technologies (ie Articulate/Captivate, libguide, simple web pages) to deliver information literacy tutorials. Beyond the open source TILT tutorial, there are no convenient and free options for smaller libraries to use as a starter to their information literacy teaching. Furthermore, few tutorials and resources take advantage of the established trends in e-learning, such as constructivist learning (eg. Duolingo bite-sized language learning) and gamification or game-based learning. Gamification has increased in popularity in educational and professional settings and has been shown to have many benefits, including increased student engagement and motivation, enhanced learning performance and academic achievement, and improved recall and retention (Kim, Song, Lockee, & Burton, 2017).
-    
-    Swirl aims to change the status quo by providing an open-source and free progressive web and mobile application that can be used by any library as its information literacy tutorial. The app will instruct users in three areas: basic library information, information literacy, and research strategies. These areas will be divided into shorter learning modules that incorporate game-like activities and exercises to reinforce just-in-time instruction. Users will earn Digital Badges, XP (experience points), and Fluency as they complete individual modules. Digital badges, “offer opportunities to recognize individuals’ accomplishments, skills, qualities, or interests, help set goals, motivate behavior, represent achievements, and communicate success in learning offered through schools, professional settings, or daily life” (http://www.ala.org/tools/future/trends/badging). Being information literate is not only important in school but also in daily life. Our goal is to have anyone learn these skills in a fun and interactive way.
+  Swirl is an open-source and free progressive web and mobile application that can be used by any library as its information literacy tutorial. The app will instruct users in three areas: basic library information, information literacy, and research strategies. These areas will be divided into shorter learning modules that incorporate game-like activities and exercises to reinforce just-in-time instruction. Users will earn Digital Badges, XP (experience points), and Fluency as they complete individual modules.
     <br />
     <a href="https://github.com/stanrb/Swirl"><strong>Explore the docs »</strong></a>
     <br />
@@ -24,6 +22,7 @@
 
 - [About the Project](#about-the-project)
   - [Built With](#built-with)
+  - [Funding & Support](#funding)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
@@ -46,6 +45,10 @@
 - [Ionic](https://ionicframework.com/)
 - [Angular](https://angular.io/)
 - [Firebase](https://firebase.google.com/)
+
+### Funding & Support
+
+Funding for this project has partially been provided by the Long Island Library Resources Council.
 
 <!-- GETTING STARTED -->
 
