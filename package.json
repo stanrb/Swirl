@@ -1,8 +1,8 @@
 {
-  "name": "Swirl",
+  "name": "swirl",
   "version": "0.0.1",
-  "author": "Ionic Framework",
-  "homepage": "https://ionicframework.com/",
+  "author": "Stanislav Bogdanov, Jason Byrd, Lori Cimino-Caniano, and Adelphi University",
+  "homepage": "https://github.com/stanrb/Swirl",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -24,12 +24,13 @@
     "@ionic-native/splash-screen": "^5.0.0",
     "@ionic-native/status-bar": "^5.0.0",
     "@ionic/angular": "^5.0.0",
+    "ngx-markdown": "^11.0.1",
     "rxjs": "~6.5.5",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.3"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "~0.1000.0",
+    "@angular-devkit/build-angular": "^0.1100.5",
     "@angular/cli": "~10.0.5",
     "@angular/compiler": "~10.0.0",
     "@angular/compiler-cli": "~10.0.0",
@@ -52,5 +53,5 @@
     "tslint": "~6.1.0",
     "typescript": "~3.9.5"
   },
-  "description": "An Ionic project"
+  "description": "Swirl is an open-source and free progressive web and mobile application that can be used by any library as its information literacy tutorial."
 }
