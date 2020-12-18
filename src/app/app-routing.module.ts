@@ -11,11 +11,15 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'samples/md',
+    loadChildren: () => import('./modules/samples/md/md.module').then( m => m.MdPageModule)
+  },
 ];
 
 @NgModule({
   imports: [
-    RouterModule.forRoot(routes, { preloadingStrategy: PreloadAllModules })
+    RouterModule.forRoot(routes, { preloadingStrategy: PreloadAllModules, relativeLinkResolution: 'legacy' })
   ],
   exports: [RouterModule]
 })

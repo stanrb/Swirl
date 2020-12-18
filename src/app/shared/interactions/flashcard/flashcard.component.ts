@@ -1,13 +1,16 @@
-import { Component, OnInit } from '@angular/core';
+import { Input, Component, OnInit } from '@angular/core';
+import { MarkdownService } from 'ngx-markdown';
 
 @Component({
-  selector: 'flashcard',
+  selector: 'swirl-flashcard',
   templateUrl: './flashcard.component.html',
   styleUrls: ['./flashcard.component.scss'],
 })
 export class FlashcardComponent implements OnInit {
+
+  @Input() flashcardSrc: string;
   
-  constructor() { }
+  constructor(private markdownService: MarkdownService) { }
 
   flipped: boolean = false;
   
@@ -15,6 +18,14 @@ export class FlashcardComponent implements OnInit {
     this.flipped = !this.flipped;
   }
 
-  ngOnInit() {}
+  ngOnInit() {
+    this.markdownService.renderer.heading = (text: string, level: number) => {
+      if (level == 2) {
+        return '<div class="front front-text">' + text + '</div>';
+      } else if (level == 3) {
+        return '<div class="back back-text">' + text + '</div>';
+      }
+    };
+  }
 
 }
