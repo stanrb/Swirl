@@ -9,23 +9,22 @@ import { MarkdownService } from 'ngx-markdown';
 export class FlashcardComponent implements OnInit {
 
   @Input() flashcardSrc: string;
-  
+
   constructor(private markdownService: MarkdownService) { }
 
   flipped: boolean = false;
-  
+
   flip(){
     this.flipped = !this.flipped;
   }
 
   ngOnInit() {
     this.markdownService.renderer.heading = (text: string, level: number) => {
-      if (level == 2) {
-        return '<div class="front front-text">' + text + '</div>';
-      } else if (level == 3) {
+      if (level === 2) {
+          return '<div class="front front-text">' + text + '</div>';
+        } else if (level === 3) {
         return '<div class="back back-text">' + text + '</div>';
       }
     };
   }
-
 }
