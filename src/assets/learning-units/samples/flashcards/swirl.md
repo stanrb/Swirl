@@ -1,2 +1,2 @@
 ## Flashcard
-### Contect powered completely by Markdown - makes editing easy!
+### Flashcard content can be easily changed in a simple text editor
